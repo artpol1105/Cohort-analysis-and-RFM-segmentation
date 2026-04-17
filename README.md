@@ -1,1 +1,1 @@
-# data-analyst-pet-project
+# Cohort analysis and RFM segmentation
