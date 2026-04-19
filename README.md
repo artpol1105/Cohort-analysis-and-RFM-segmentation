@@ -1,7 +1,7 @@
 # Customer Segmentation & RFM Analysis
 
 ## Project Overview
-In the highly competitive e-commerce sector, treating all customers equally leads to an inefficient allocation of the marketing budget. The goal of this project is to analyze transactional data, segment the customer base using **RFM (Recency, Frequency, Monetary) analysis**, and create an interactive dashboard. This enables the business and marketing teams to interact with different customer groups in a highly targeted manner.
+In the highly competitive e-commerce sector, treating all customers equally leads to an inefficient allocation of the marketing budget. The goal of this project is to analyze transactional data, segment the customer base using RFM (Recency, Frequency, Monetary) analysis, and create an interactive dashboard. This enables the business and marketing teams to interact with different customer groups in a highly targeted manner.
 
 ## Tech Stack
 * Python: Data cleaning, preprocessing, and cohort analysis. 
@@ -35,7 +35,7 @@ During the Exploratory Data Analysis (EDA) and visualization phase, specific out
   
 **Anomaly 2: The "Dropshipper / Bot"**
   <img width="965" height="367" alt="image" src="https://github.com/user-attachments/assets/1e21efeb-2968-4407-b59f-6bdb55bbb3e9" />
-  * **Observation:** A single Customer ID made around 33,000 orders, but with a relatively low average order value.
+  * **Observation:** A single Customer ID made around 209 orders, but with a relatively low average order value.
   * **Business Solution:** This behavior clearly indicates a dropshipping model, an automated purchasing bot, or a technical glitch. 
   * **Recommendation:** Conduct an account audit. If it is a legitimate dropshipper, offer an official API integration or a special wholesale pricing structure.
 
