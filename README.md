@@ -1,7 +1,7 @@
 # Customer Segmentation & RFM Analysis
 
 ## Project Overview
-In the highly competitive e-commerce sector, treating all customers equally leads to an inefficient allocation of the marketing budget. The goal of this project is to analyze transactional data, segment the customer base using **RFM (Recency, Frequency, Monetary) analysis**, and create an interactive dashboard. This enables the business and marketing teams to interact with different customer groups in a highly targeted manner.
+In the highly competitive e-commerce sector, treating all customers equally leads to an inefficient allocation of the marketing budget. The goal of this project is to analyze transactional data, segment the customer base using RFM (Recency, Frequency, Monetary) analysis, and create an interactive dashboard. This enables the business and marketing teams to interact with different customer groups in a highly targeted manner.
 
 ## Tech Stack
 * Python: Data cleaning, preprocessing, and cohort analysis. 
@@ -19,7 +19,8 @@ In the highly competitive e-commerce sector, treating all customers equally lead
 
 ## Interactive Dashboard
 !!! [View my interactive dashboard on Tableau Public](https://public.tableau.com/shared/5GBWM2QWZ?:display_count=n&:origin=viz_share_link)!!!
-  <img src="images/img.png" width="800" alt="RFM Dashboard">
+<img width="971" height="769" alt="image" src="https://github.com/user-attachments/assets/612f2cc4-c591-4b61-b2fa-ed2698cfcb6b" />
+
 
 (The dashboard allows filtering data by RFM segments, analyzing revenue share, and dynamically exploring individual customer metrics).
 
@@ -27,14 +28,14 @@ In the highly competitive e-commerce sector, treating all customers equally lead
 During the Exploratory Data Analysis (EDA) and visualization phase, specific outliers ("Whales") were identified that require immediate business attention:
 
 **Anomaly 1: The "Hidden B2B Partner"**
-  <img src="images/img_1.png" width="800" alt="Anomaly 1 B2B Partner">
+  <img width="802" height="337" alt="image" src="https://github.com/user-attachments/assets/d749e394-60ef-4739-b135-4be76bb1c6ed" />
   * **Observation:** One specific customer generated $280,000 in revenue.
   * **Business Solution:** Most likely, this is a large wholesale buyer or a B2B partner, not a standard retail customer. 
   * **Recommendation:** Assign a dedicated Key Account Manager to provide VIP support, negotiate individual terms, and retain the customer in the long term.
   
 **Anomaly 2: The "Dropshipper / Bot"**
-  <img src="images/img_2.png" width="800" alt="Anomaly 2 Dropshipper"> 
-  * **Observation:** A single Customer ID made around 33,000 orders, but with a relatively low average order value.
+  <img width="965" height="367" alt="image" src="https://github.com/user-attachments/assets/bdbd76ca-13ac-48bb-86b6-c055ebc2f57e" />
+  * **Observation:** A single Customer ID made 209 orders, but with a relatively low average order value.
   * **Business Solution:** This behavior clearly indicates a dropshipping model, an automated purchasing bot, or a technical glitch. 
   * **Recommendation:** Conduct an account audit. If it is a legitimate dropshipper, offer an official API integration or a special wholesale pricing structure.
 
